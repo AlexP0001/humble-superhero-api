@@ -36,7 +36,8 @@ This repository contains a simple NestJs backend that manages a list of superher
 
 
 [Node.js](https://nodejs.org/) (version 14 or above)
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository
 
 ## Endpoints
 
@@ -57,8 +58,11 @@ This repository contains a simple NestJs backend that manages a list of superher
 **Validation rules:**
 
 `name` must be a string.
+
 `superpower` must be a string.
+
 `humility` must be an integer between 1 and 10.
+
 
 **Response:** Returns a confirmation message along with the added superhero object.
 
@@ -153,10 +157,15 @@ Check out a few resources that may come in handy when working with NestJS:
 Here's a list of improvements that can be made given more time:
 
 **Persistent storage:** Replace the in-memory list with a database for data persistence and scalability.
+
 **Service Layer Abstraction:** Introduce a dedicated service layer to separate business logic from controller logic, making the code easier to maintain and test.
+
 **Enhanced Error Handling and Logging:** Implement more robust error handling with structured logging to improve troubleshooting and system monitoring.
+
 **Comprehensive Testing:** Add unit and integration tests to ensure reliability and catch regressions early.
+
 **Authentication & Authorization:** Incorporate security measures such as JWT authentication and role-based access control for sensitive endpoints.
+
 **Advanced Validation & Middleware:** Use additional NestJS features like custom pipes and interceptors for refined input validation and request/response transformation.
 
 # Teamwork
